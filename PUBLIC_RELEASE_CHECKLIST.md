@@ -12,7 +12,7 @@ The source builds in debug and release modes. The signed release APK was install
 - [x] A private release signing key was created outside the Desktop/GitHub package.
 - [ ] Back up the private signing keystore and its password file securely; losing them prevents ordinary APK updates. Their local paths are listed in the adjacent `BASLA-BURADAN.md` file, which is not part of this Git repository.
 - [x] Built, signed, verified, and installed the release APK on an Android 6 emulator.
-- [ ] Create the GitHub repository, connect it as a remote, commit, and push. Attach the signed APK to a GitHub Release after the rights and real-device checks above.
+- [x] Created the public GitHub repository, pushed the source, and attached the signed APK to the `v1.27` GitHub Release.
 
 Package ID: `com.autoos.launcher`. The previous package ID will not be upgraded in place.
 
