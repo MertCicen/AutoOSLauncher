@@ -45,3 +45,29 @@ A signed APK for this snapshot is in the package's adjacent `release-apk` folder
 The project owner stated that they wrote the older source project and generated the retained blue-wave wallpaper and menu icons with ChatGPT. Unknown-license font binaries were removed. See [ASSET_ORIGIN.md](ASSET_ORIGIN.md) and [PUBLIC_RELEASE_CHECKLIST.md](PUBLIC_RELEASE_CHECKLIST.md).
 
 This project is released under the [MIT License](LICENSE), which allows reuse, modification, and redistribution. Keep the copyright and license notice with copies or substantial portions. Android and Gradle dependencies retain their own licenses.
+
+
+## ❤️ Support AutoOS Launcher
+
+AutoOS Launcher is **100% free and open source**, with no ads, subscriptions, or paid features.
+
+If you find this project useful, you can support its development with an optional cryptocurrency donation.
+
+**Accepted tokens:** USDT, USDC, ETH
+
+**Supported networks:**
+- Ethereum (ERC-20)
+- Polygon
+- Arbitrum One
+- Base
+- BNB Smart Chain
+
+**Donation wallet (EVM):**
+
+`0x98840c954D43F8EFD0D1382C20e2D2aFf75A1acD`
+
+**Important:** Please select the correct network and verify that the token is supported before sending. Do not send BTC, SOL, or TRX using their native networks to this address.
+
+Donations are completely optional. AutoOS Launcher will remain free for everyone.
+
+Thank you for supporting the project! ❤️
