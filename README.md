@@ -1,6 +1,6 @@
 # AutoOS Launcher
 
-> **Distribution:** Free to download. The owner has not granted permission to modify or redistribute the source code or assets. See [REDISTRIBUTION.md](REDISTRIBUTION.md).
+> **License:** MIT. You may use, modify, and redistribute this project under the terms of [LICENSE](LICENSE).
 
 AutoOS is a landscape Android launcher designed for car head units. It provides a customizable home screen, an app menu, app shortcuts, GPS speed and trip time, media controls, and a software equalizer for compatible Android audio sessions. All features in this version are free.
 
@@ -40,8 +40,8 @@ A signed APK for this snapshot is in the package's adjacent `release-apk` folder
 ![Apps menu extra shortcuts](screenshots/apps-extra.png)
 ![Launcher Options](screenshots/launcher-options.png)
 
-## Redistribution status
+## License and asset origin
 
 The project owner stated that they wrote the older source project and generated the retained blue-wave wallpaper and menu icons with ChatGPT. Unknown-license font binaries were removed. See [ASSET_ORIGIN.md](ASSET_ORIGIN.md) and [PUBLIC_RELEASE_CHECKLIST.md](PUBLIC_RELEASE_CHECKLIST.md).
 
-The repository is source available for free download. It is not offered under an open-source license. See [REDISTRIBUTION.md](REDISTRIBUTION.md).
+This project is released under the [MIT License](LICENSE), which allows reuse, modification, and redistribution. Keep the copyright and license notice with copies or substantial portions. Android and Gradle dependencies retain their own licenses.
