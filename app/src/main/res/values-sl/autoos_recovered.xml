@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="abc_action_mode_done">Končano</string>
+  <string name="abc_capital_off">IZKLOP</string>
+  <string name="abc_capital_on">VKLOP</string>
+  <string name="abc_search_hint">Iskanje …</string>
+  <string name="abc_searchview_description_clear">Izbris poizvedbe</string>
+  <string name="abc_searchview_description_search">Iskanje</string>
+  <string name="abc_searchview_description_submit">Pošiljanje poizvedbe</string>
+  <string name="abc_searchview_description_voice">Glasovno iskanje</string>
+  <string name="abc_toolbar_collapse_description">Strnitev</string>
+</resources>

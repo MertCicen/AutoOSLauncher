@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="abc_action_mode_done">Готово</string>
+  <string name="abc_capital_off">ВЫКЛ</string>
+  <string name="abc_capital_on">ВКЛ</string>
+  <string name="abc_search_hint">Введите запрос</string>
+  <string name="abc_searchview_description_clear">Удалить запрос</string>
+  <string name="abc_searchview_description_search">Поиск</string>
+  <string name="abc_searchview_description_submit">Отправить запрос</string>
+  <string name="abc_searchview_description_voice">Голосовой поиск</string>
+  <string name="abc_toolbar_collapse_description">Свернуть</string>
+</resources>

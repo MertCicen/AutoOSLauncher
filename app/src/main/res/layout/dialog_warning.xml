@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#7b000000" android:paddingTop="18.0dp" android:paddingBottom="18.0dp" android:layout_width="420.0dp" android:layout_height="wrap_content" android:paddingStart="22.0dp" android:paddingEnd="22.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="#fd0000" android:gravity="center" android:id="@id/warning_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/system_warning" />
+    <TextView android:textSize="18.0sp" android:textColor="#ffffff" android:gravity="center" android:id="@id/warning_message" android:background="#55222222" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:text="@string/warning_text" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dp" android:weightSum="2.0">
+        <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:id="@id/warning_cancel" android:background="#66444444" android:layout_width="0.0dp" android:layout_height="46.0dp" android:layout_margin="4.0dp" android:text="@string/cancel" android:layout_weight="1.0" />
+        <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="#fdfdfd" android:gravity="center" android:id="@id/warning_continue" android:background="#66001ef8" android:layout_width="0.0dp" android:layout_height="46.0dp" android:layout_margin="4.0dp" android:text="@string/continue_button" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>
+

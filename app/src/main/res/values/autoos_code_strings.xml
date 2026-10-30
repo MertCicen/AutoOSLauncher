@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="average_speed_format">Ø %1$d km/h</string>
+    <string name="current_speed_format">%1$d km/h</string>
+    <string name="custom_header_empty">Metin boş olamaz</string>
+    </resources>

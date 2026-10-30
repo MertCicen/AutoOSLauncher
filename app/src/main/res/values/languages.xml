@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Keep this list in the same order in every locale-aware language picker. -->
+    <string-array name="supported_language_codes">
+        <item>en</item>
+        <item>ru</item>
+        <item>es</item>
+        <item>pt</item>
+        <item>de</item>
+        <item>fr</item>
+        <item>it</item>
+        <item>tr</item>
+        <item>ar</item>
+        <item>cs</item>
+    </string-array>
+    <string-array name="supported_language_names">
+        <item>English</item>
+        <item>Русский</item>
+        <item>Español</item>
+        <item>Português</item>
+        <item>Deutsch</item>
+        <item>Français</item>
+        <item>Italiano</item>
+        <item>Türkçe</item>
+        <item>العربية</item>
+        <item>Čeština</item>
+    </string-array>
+</resources>

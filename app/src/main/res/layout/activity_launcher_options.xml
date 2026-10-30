@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/launcher_options_root" android:background="#000000" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@+id/launcher_options_wallpaper" android:tag="launcher_wallpaper_root" android:background="@drawable/sample_blue_wave" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent" />
+    <androidx.constraintlayout.widget.Guideline android:id="@+id/launcher_options_header_bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.15" />
+    <TextView android:textSize="27.0sp" android:textStyle="bold" android:textColor="#f3eef6" android:gravity="center_vertical" android:id="@id/launcher_options_title" android:layout_width="0.0dp" android:layout_height="48.0dp" android:text="@string/launcher_options_title" android:paddingStart="18.0dp" android:paddingEnd="12.0dp" app:layout_constraintBottom_toTopOf="@id/launcher_options_header_bottom" app:layout_constraintEnd_toStartOf="@id/launcher_options_back" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="15.0sp" android:textColor="#ffffff" android:gravity="center" android:id="@id/launcher_options_back" android:background="@drawable/eq_back_button_bg" android:focusable="true" android:clickable="true" android:layout_width="54.0dp" android:layout_height="42.0dp" android:text="@string/back" android:layout_marginEnd="14.0dp" app:layout_constraintBottom_toBottomOf="@id/launcher_options_title_line" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/launcher_options_title_line" android:background="#0029e0" android:layout_width="0.0dp" android:layout_height="2.0dp" app:layout_constraintBottom_toTopOf="@id/launcher_options_header_bottom" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/launcher_options_title" />
+    <ScrollView android:paddingBottom="24.0dp" android:clipToPadding="false" android:layout_width="0.0dp" android:layout_height="0.0dp" android:fillViewport="false" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/launcher_options_title_line">
+        <LinearLayout android:orientation="vertical" android:paddingTop="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="48.0dp" android:paddingEnd="48.0dp">
+            <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/language" />
+            <LinearLayout android:id="@+id/launcher_options_language" android:orientation="horizontal" android:gravity="center_vertical" android:background="@drawable/eq_back_button_bg" android:clickable="true" android:focusable="true" android:layout_width="match_parent" android:layout_height="56.0dp" android:layout_marginTop="10.0dp" android:layout_marginBottom="20.0dp" android:paddingStart="18.0dp" android:paddingEnd="18.0dp">
+                <TextView android:id="@+id/launcher_options_language_value" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffff" android:singleLine="true" android:ellipsize="end" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="▾" android:textSize="26.0sp" android:textColor="#ffffff" android:importantForAccessibility="no" />
+            </LinearLayout>
+            <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/launcher_color" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="56.0dp">
+                <SeekBar android:id="@id/launcher_options_hue_slider" android:layout_width="0.0dp" android:layout_height="56.0dp" android:max="359" android:progress="230" android:layout_weight="1.0" android:progressTint="#0029e0" android:progressBackgroundTint="#454b55" android:thumbTint="#ffffff" />
+                <TextView android:textSize="22.0sp" android:textColor="#ffffff" android:gravity="center" android:id="@id/launcher_options_hue_value" android:layout_width="76.0dp" android:layout_height="match_parent" android:text="230°" />
+                <View android:id="@id/launcher_options_hue_preview" android:background="#0029e0" android:layout_width="48.0dp" android:layout_height="48.0dp" />
+            </LinearLayout>
+            <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:text="@string/custom_wallpaper" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="56.0dp" android:layout_marginTop="10.0dp">
+                <TextView android:id="@id/launcher_options_wallpaper_choose" android:text="@string/choose_image" style="@style/LauncherOptionButton" />
+                <TextView android:id="@id/launcher_options_wallpaper_reset" android:text="@string/restore_default" android:layout_marginStart="16.0dp" style="@style/LauncherOptionButton" />
+            </LinearLayout>
+            <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:text="@string/home_screen_text" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="56.0dp" android:layout_marginTop="10.0dp">
+                <EditText android:textSize="20.0sp" android:textColor="#ffffff" android:textColorHint="#a8a8a8" android:id="@id/launcher_options_home_text" android:layout_width="0.0dp" android:layout_height="match_parent" android:singleLine="true" android:layout_weight="1.0" android:paddingStart="12.0dp" android:paddingEnd="12.0dp" android:background="@drawable/launcher_option_text_bg" />
+                <TextView android:id="@id/launcher_options_home_text_save" android:text="@string/save" android:layout_marginStart="16.0dp" style="@style/LauncherOptionButton" />
+            </LinearLayout>
+            <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:text="@string/home_screen_logo" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="56.0dp" android:layout_marginTop="10.0dp">
+                <TextView android:id="@id/launcher_options_sign_choose" android:text="@string/choose_image" style="@style/LauncherOptionButton" />
+                <TextView android:id="@id/launcher_options_sign_reset" android:text="@string/restore_default" android:layout_marginStart="16.0dp" style="@style/LauncherOptionButton" />
+            </LinearLayout>
+            <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:text="@string/vehicle_image" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="56.0dp" android:layout_marginTop="10.0dp">
+                <TextView android:id="@id/launcher_options_vehicle_choose" android:text="@string/choose_image" style="@style/LauncherOptionButton" />
+                <TextView android:id="@id/launcher_options_vehicle_reset" android:text="@string/restore_default" android:layout_marginStart="16.0dp" style="@style/LauncherOptionButton" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+

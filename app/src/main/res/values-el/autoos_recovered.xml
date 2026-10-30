@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="abc_action_mode_done">Τέλος</string>
+  <string name="abc_capital_off">ΑΠΕΝΕΡΓΟΠΟΙΗΣΗ</string>
+  <string name="abc_capital_on">ΕΝΕΡΓΟΠΟΙΗΣΗ</string>
+  <string name="abc_search_hint">Αναζήτηση…</string>
+  <string name="abc_searchview_description_clear">Διαγραφή ερωτήματος</string>
+  <string name="abc_searchview_description_search">Αναζήτηση</string>
+  <string name="abc_searchview_description_submit">Υποβολή ερωτήματος</string>
+  <string name="abc_searchview_description_voice">Φωνητική αναζήτηση</string>
+  <string name="abc_toolbar_collapse_description">Σύμπτυξη</string>
+</resources>
