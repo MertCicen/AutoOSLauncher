@@ -42,7 +42,7 @@ A signed APK for this snapshot is in the package's adjacent `release-apk` folder
 
 ## License and asset origin
 
-The project owner stated that they wrote the older source project and generated the retained blue-wave wallpaper and menu icons with ChatGPT. Unknown-license font binaries were removed. See [ASSET_ORIGIN.md](ASSET_ORIGIN.md) and [PUBLIC_RELEASE_CHECKLIST.md](PUBLIC_RELEASE_CHECKLIST.md).
+Source project generated the retained blue-wave wallpaper and menu icons with ChatGPT. Unknown-license font binaries were removed. See [ASSET_ORIGIN.md](ASSET_ORIGIN.md) and [PUBLIC_RELEASE_CHECKLIST.md](PUBLIC_RELEASE_CHECKLIST.md).
 
 This project is released under the [MIT License](LICENSE), which allows reuse, modification, and redistribution. Keep the copyright and license notice with copies or substantial portions. Android and Gradle dependencies retain their own licenses.
 
